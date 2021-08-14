@@ -18,9 +18,22 @@
       "xml": "http://www.w3.org/XML/1998/namespace",
       "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
     },
+    "title": {
+      "undefined": "Microservices Architecture Descriptions Ontology"
+    },
     "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
-    "comments": {
-      "pt": "Uma ontologia sobre microsserviços"
+    "description": {
+      "undefined": "An ontology to describe a microservices based architecture."
+    },
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "pt",
+          "value": "Microservices Architecture Descriptions Ontology",
+          "type": "label"
+        }
+      ]
     }
   },
   "namespace": [],
