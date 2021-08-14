@@ -1,0 +1,1367 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "pt"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+    "comments": {
+      "pt": "Uma ontologia sobre microsserviços"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.40",
+      "translation": [
+        533.52,
+        243.59
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "5",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "6",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "7",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "18",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "20",
+      "type": "owl:equivalentClass"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "50",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "10",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Rede",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Rede"
+      },
+      "attributes": [
+        "equivalent"
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Memoria",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Memoria"
+      },
+      "attributes": [
+        "equivalent"
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Disco",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Disco"
+      },
+      "attributes": [
+        "equivalent"
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#CPU",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "CPU"
+      },
+      "attributes": [
+        "equivalent"
+      ],
+      "equivalent": [
+        "5",
+        "6",
+        "7"
+      ],
+      "pos": [
+        1346.21,
+        1024.89
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Logs",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Logs"
+      },
+      "comment": {
+        "pt": "Essa classe são os logs da aplicação."
+      },
+      "pos": [
+        1635.7,
+        -394.16
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Alerta",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Alerta"
+      },
+      "pos": [
+        502.9,
+        1220.88
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Json",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Json"
+      },
+      "attributes": [
+        "equivalent"
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Xml",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Xml"
+      },
+      "attributes": [
+        "equivalent"
+      ],
+      "equivalent": [
+        "18"
+      ],
+      "pos": [
+        1081.99,
+        1307.22
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#ReplicaSet",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "ReplicaSet"
+      },
+      "comment": {
+        "pt": "Essa classe representa o replicaSet, responsável por controlar a replicação dos pods."
+      },
+      "pos": [
+        1060.11,
+        -432.01
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#SOAP",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "SOAP"
+      },
+      "attributes": [
+        "equivalent"
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#HTTP",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "HTTP"
+      },
+      "attributes": [
+        "equivalent"
+      ],
+      "equivalent": [
+        "20"
+      ],
+      "pos": [
+        287.4,
+        620.2
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Pod",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Pod"
+      },
+      "comment": {
+        "pt": "Essa classe representa o Pod."
+      },
+      "pos": [
+        1382.29,
+        -136.88
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Mensagem",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Mensagem"
+      },
+      "comment": {
+        "pt": "Essa classe é a mensagem."
+      },
+      "pos": [
+        1615.81,
+        708.27
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Microsservico",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Microsservico"
+      },
+      "comment": {
+        "pt": "Essa classe representa o microsserviço."
+      },
+      "pos": [
+        849,
+        241.95
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        274.24,
+        1104.53
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Monitor",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Monitor"
+      },
+      "comment": {
+        "pt": "Essa classe representa o monitoramento."
+      },
+      "pos": [
+        806.61,
+        986.57
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Kubernetes",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Kubernetes"
+      },
+      "comment": {
+        "pt": "Essa classe representa o kubernetes."
+      },
+      "pos": [
+        779.76,
+        -233
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1965.31,
+        27.42
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        908.76,
+        -16.83
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Dado",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Dado"
+      },
+      "pos": [
+        894.07,
+        979.88
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1861.1,
+        697.64
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1026.16,
+        -679.38
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        616.61,
+        51.63
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        561.7,
+        171.77
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        282.72,
+        1332.04
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.w3.org/2001/XMLSchema#long",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "long"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        585.85,
+        1456.67
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Metrica",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Metrica"
+      },
+      "comment": {
+        "pt": "Essa classe representa as métricas."
+      },
+      "pos": [
+        1140.78,
+        704.75
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        572.25,
+        304.9
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1759.37,
+        925.93
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#GerenciadorDeMensagens",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "GerenciadorDeMensagens"
+      },
+      "comment": {
+        "pt": "Essa classe é o message broker."
+      },
+      "pos": [
+        1279.23,
+        463.32
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Request",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Request"
+      },
+      "comment": {
+        "pt": "Essa classe representa a comunicação."
+      },
+      "pos": [
+        672.5,
+        614.33
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Node",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Node"
+      },
+      "comment": {
+        "pt": "Essa classe representa o node onde o microsserviço está publicado."
+      },
+      "pos": [
+        1244.67,
+        232.78
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#Container",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "Container"
+      },
+      "comment": {
+        "pt": "Essa classe representa o container."
+      },
+      "pos": [
+        1752.41,
+        -78.55
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "25",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "29",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "34",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "38",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "41",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "45",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "49",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "51",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "52",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "54",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "58",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "59",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "61",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "63",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "65",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "67",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "68",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#recebe",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "recebe"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "pt": "Microsserviço recebe request"
+      },
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        785.18,
+        443.75
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#horario_mensagem",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "horario_mensagem"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "10",
+      "pos": [
+        1698.06,
+        832.97
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#publicaMensagem",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "publicaMensagem"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "12",
+      "pos": [
+        1064.12,
+        352.63
+      ]
+    },
+    {
+      "id": "21",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "9",
+      "range": "12",
+      "pos": [
+        1447.52,
+        585.8
+      ]
+    },
+    {
+      "id": "22",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "23",
+      "range": "24",
+      "pos": [
+        1311.17,
+        42.62
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#url_microsserviço",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "url_microsserviço"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "26",
+      "pos": [
+        693.31,
+        203.92
+      ]
+    },
+    {
+      "id": "27",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "28",
+      "range": "1",
+      "pos": [
+        481.95,
+        617.23
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#gatilho_alerta",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "gatilho_alerta"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "14",
+      "range": "30",
+      "pos": [
+        550.91,
+        1357.36
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#possuiPod",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "possuiPod"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "23",
+      "pos": [
+        1373.48,
+        67.42
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#PublicadoEm",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "PublicadoEm"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "24",
+      "pos": [
+        1047.31,
+        256.5
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "3",
+      "range": "4",
+      "pos": [
+        1242.41,
+        863.13
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#dispara",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "dispara"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "pt": "Microsserviço dispara request"
+      },
+      "domain": "2",
+      "range": "1",
+      "pos": [
+        727.3,
+        418.42
+      ]
+    },
+    {
+      "id": "40",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "32",
+      "range": "33",
+      "pos": [
+        860.11,
+        -417.3
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#transfere",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "transfere"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "pt": "Request transfere um dado."
+      },
+      "domain": "1",
+      "range": "17",
+      "pos": [
+        783.28,
+        797.11
+      ]
+    },
+    {
+      "id": "43",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "16",
+      "range": "17",
+      "pos": [
+        987.03,
+        1141.82
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#qtd_replicas",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "qtd_replicas"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "32",
+      "range": "46",
+      "pos": [
+        1040.42,
+        -575.47
+      ]
+    },
+    {
+      "id": "47",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "14",
+      "range": "15",
+      "pos": [
+        654.76,
+        1103.73
+      ]
+    },
+    {
+      "id": "48",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "24",
+      "range": "2",
+      "pos": [
+        1046.94,
+        193.73
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#nome_microsserviço",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "nome_microsserviço"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "50",
+      "pos": [
+        719.57,
+        135.95
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#tipo_gatilho",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "tipo_gatilho"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "14",
+      "range": "44",
+      "pos": [
+        376.11,
+        1156.37
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#orquestra",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "orquestra"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "33",
+      "range": "2",
+      "pos": [
+        814.38,
+        4.48
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#data_publicação",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "data_publicação"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "55",
+      "pos": [
+        883.35,
+        93.2
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#possuiMetrica",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "possuiMetrica"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "4",
+      "pos": [
+        1192.72,
+        468.76
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#possuiContainer",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "possuiContainer"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "23",
+      "range": "60",
+      "pos": [
+        1567.35,
+        -107.71
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#artefato_publicado",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "artefato_publicado"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "62",
+      "pos": [
+        698.5,
+        276.18
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#monitora",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "monitora"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "pt": "O Monitor monitora o microsserviço"
+      },
+      "domain": "15",
+      "range": "4",
+      "pos": [
+        973.69,
+        845.66
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#controlaReplicação",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "controlaReplicação"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "32",
+      "range": "23",
+      "pos": [
+        1221.2,
+        -284.45
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#possuiLogs",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "possuiLogs"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "23",
+      "range": "13",
+      "pos": [
+        1508.99,
+        -265.52
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#possuiReplicaSet",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "possuiReplicaSet"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "33",
+      "range": "32",
+      "pos": [
+        895.41,
+        -367.9
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#tipo_alerta",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "tipo_alerta"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "14",
+      "range": "57",
+      "pos": [
+        380.4,
+        1282.73
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#nome_img_container",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "nome_img_container"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "60",
+      "range": "53",
+      "pos": [
+        1871.2,
+        -19.42
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture#conteudo_mensagem",
+      "baseIri": "http://www.semanticweb.org/act/ontologies/2021/7/microservices-architecture",
+      "label": {
+        "IRI-based": "conteudo_mensagem"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "56",
+      "pos": [
+        1751.18,
+        702.41
+      ]
+    }
+  ]
+}
